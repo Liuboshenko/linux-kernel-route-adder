@@ -17,6 +17,12 @@ A lightweight C-based utility to add static routes to the Linux kernel's Forward
 ## How to Build
 Clone the repository and compile the source code:
 ```bash
-git clone https://github.com/yourusername/linux-fib-route-adder.git
+git clone https://github.com/Liuboshenko/linux-kernel-route-adder.git
 cd linux-fib-route-adder
+make
+
+# OR
+git clone https://github.com/Liuboshenko/linux-kernel-route-adder.git
+cd linux-fib-route-adder/src
 gcc -o add_route main.c add_route.c -Wall
+```
