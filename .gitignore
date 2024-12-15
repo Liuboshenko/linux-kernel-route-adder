@@ -1,0 +1,27 @@
+# Ignore all files by default
+*
+# Allow directories explicitly
+!src/
+!docs/
+!examples/
+
+# Allow C source files and headers
+!*.c
+!*.h
+
+# Allow Makefile
+!Makefile
+
+# Allow Markdown files (e.g., README, LICENSE, DESIGN)
+!*.md
+!LICENSE
+
+
+# Allow shell scripts
+!*.sh
+
+# Allow review files
+!*.review
+
+# Allow .gitignore itself
+!.gitignore
